@@ -1,0 +1,17 @@
+Crontab 
+
+- crontab -l
+
+- crontab -e
+
+* * * * * echo “Hello World at $(date)” >> $HOME/greetings.txt
+
+
+output crontab: installing new crontab
+
+
+ดูผลลัพธ์
+tail ~/greetings.txt 
+
+remove crontab
+crontab -r
